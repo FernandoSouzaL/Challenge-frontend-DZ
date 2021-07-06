@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, SCSS, JavaScript">
+    <meta name="author" content="Fernando Souza">
+    <!-- swipper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="src/js/scripts.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="dist/css/style.css">
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Chellenge DZ</title>
+
+</head>
+
+<body id="top">
+
+    <main>
+        <header id="header">
+            <div class="wrap">
+                <div class="logo">
+                    <img src="src/img/Logo.png" alt="Logo">
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li class="arrow">
+                                <a href="#">SOBRE NÓS</a>
+                                <div class="sub-menu">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#">Selecionar item</a></li>
+                                            <li><a href="#">Ou item 01</a></li>
+                                            <li><a href="#">Selecione esse</a></li>
+                                            <li><a href="#">Ou esse</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </li>
+                            <li class="arrow">
+                                <a href="#">DESTINOS</a>
+                                <div class="sub-menu">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#">Selecionar item</a></li>
+                                            <li><a href="#">Ou item 01</a></li>
+                                            <li><a href="#">Selecione esse</a></li>
+                                            <li><a href="#">Ou esse</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </li>
+                            <li><a href="#">ACOMODAÇÕES</a></li>
+                            <li><a href="#">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="hamburguer">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="menu-mobile">
+                    <ul>
+                        <li class="arrow">
+                            <a href="#">SOBRE NÓS</a>
+                            <div class="sub-menu">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">Selecionar item</a></li>
+                                        <li><a href="#">Ou item 01</a></li>
+                                        <li><a href="#">Selecione esse</a></li>
+                                        <li><a href="#">Ou esse</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </li>
+                        <li class="arrow">
+                            <a href="#">DESTINOS</a>
+                            <div class="sub-menu">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">Selecionar item</a></li>
+                                        <li><a href="#">Ou item 01</a></li>
+                                        <li><a href="#">Selecione esse</a></li>
+                                        <li><a href="#">Ou esse</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </li>
+                        <li><a href="#">ACOMODAÇÕES</a></li>
+                        <li><a href="#">CONTATO</a></li>
+                    </ul>
+                </div>
+        </header>
+
+        <section id="banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background: url('src/img/Banner.jpg') center no-repeat;">
+                        <div class="filter"></div>
+                        <div class="wrap">
+                            <div class="title">
+                                <h1>MELHORES DESTINOS</h1>
+                            </div>
+                            <div class="description">
+                                <p>Percebemos, cada vez mais, que o novo modelo estrutural aqui preconizado faz parte de
+                                    um processo de gestão de alternativas às soluções ortodoxas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background: url('src/img/banner-2.png') center no-repeat;">
+                        <div class="filter"></div>
+                        <div class="wrap">
+                            <div class="title">
+                                <h1>TESTE</h1>
+                            </div>
+                            <div class="description">
+                                <p>Percebemos, cada vez mais, que o novo modelo estrutural aqui preconizado faz parte de
+                                    um processo de gestão de alternativas às soluções ortodoxas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-next">
+                    <svg class="icon-container">
+                        <use xlink:href="#arrow-right" />
+                    </svg>
+                </div>
+                <div class="button-prev">
+                    <svg class="icon-container">
+                        <use xlink:href="#arrow-left" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="environments">
+            <div class="wrap">
+                <div class="title">
+                    <h2>O QUE VOCÊ PROCURA?</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="container">
+                    <div class="block">
+                        <div class="image">
+                            <img src="src/img/Casa-do-campo.jpg" alt="Casa do campo">
+                        </div>
+                        <div class="description">
+                            <h3>CASA NO CAMPO</h3>
+                            <p>Neste sentido, a mobilidade dos capitais internacionais acarreta um processo de
+                                reformulação e modernização.</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="image">
+                            <img src="src/img/Casa-da-praia.jpg" alt="Casa da praia">
+                        </div>
+                        <div class="description">
+                            <h3>CASA NA PRAIA</h3>
+                            <p>É importante questionar o quanto o surgimento do comércio virtual representa uma
+                                abertura.</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="image">
+                            <img src="src/img/Casa-urbana.jpg" alt="Casa urbana">
+                        </div>
+                        <div class="description">
+                            <h3>CASA URBANA</h3>
+                            <p>O empenho em analisar o acompanhamento das preferências de consumo oferece uma
+                                interessante</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="wrap">
+                <div class="title">
+                    <h2>SOBRE AS NOSSAS ACOMODAÇÕES</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="container">
+                    <div class="block">
+                        <h3>SOBRE O APARTAMENTO</h3>
+                        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos cumpre um papel
+                            essencial na formulação do sistema de participação geral. Percebemos, cada vez mais, que a
+                            consulta aos diversos militantes promove a alavancagem das novas proposições.</p>
+                        <div class="btn">
+                            <a href="#">SABER MAIS</a>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <h3>SOBRE A CASA</h3>
+                        <p>As experiências acumuladas demonstram que a execução dos pontos do programa ainda não
+                            demonstrou convincentemente que vai participar na mudança das formas de ação. Desta maneira,
+                            a consulta aos diversos militantes promove a alavancagem de todos os recursos funcionais
+                            envolvidos. </p>
+                        <div class="btn">
+                            <a href="#">SABER MAIS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="form">
+            <div class="wrap">
+                <div class="title">
+                    <h2>FICOU INTERESSADO?</h2>
+                    <p>Preencha o formulário e entre em contato conosco!</p>
+                </div>
+                <form action="#" method="POST">
+                    <input type="text" name="nome" placeholder="NOME:" required>
+                    <input type="email" name="email" placeholder="E-MAIL:" required>
+                    <input class="phone" type="text" name="telefone" placeholder="TELEFONE:" required>
+                    <textarea name="mensagem" placeholder="MENSAGEM:" cols="30" rows="10" required></textarea>
+                    <input type="submit" name="EnviaForm" value="ENVIAR">
+                </form>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="wrap">
+                <div class="container">
+                    <div class="feeds">
+                        <div class="block">
+                            <a href="#">
+                                <svg class="icon-container">
+                                    <use xlink:href="#facebook" />
+                                </svg>
+                                Facebook
+                            </a>
+                        </div>
+                        <div class="block">
+                            <a href="#">
+                                <svg class="icon-container">
+                                    <use xlink:href="#instagram" />
+                                </svg>
+                                Instagram
+                            </a>
+                        </div>
+                        <div class="block">
+                            <a href="#">
+                                <svg class="icon-container">
+                                    <use xlink:href="#twitter" />
+                                </svg>
+                                Twitter
+                            </a>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>2016 © Travel Company. Todos os direitos reservados.</p>
+                        <a href="https://www.dzestudio.com.br/">
+                            <svg class="icon-container">
+                                <use xlink:href="#dz" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+<!-- ÍCONES -->
+
+<div id="icons" style="display: none;">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <symbol id="instagram" viewBox="0 0 20 19">
+            <path
+                d="M14.8179 9.71833C14.8179 12.2294 12.7981 14.2493 10.3419 14.2493C7.94073 14.2493 5.86589 12.2294 5.86589 9.71833C5.86589 9.00725 6.0823 8.4061 6.30216 7.75342H0.84024V14.3043C0.84024 16.8703 2.97004 19.0002 5.53611 19.0002H15.0378C17.6588 19.0002 19.7886 16.8703 19.7886 14.3043V7.75342H14.4916C14.7664 8.40953 14.8179 9.06565 14.8179 9.71833Z"
+                fill="#656666" />
+            <path
+                d="M19.7337 6.06307V4.75084C19.7337 2.1298 17.6039 0 14.9279 0H5.53611C2.97004 0 0.84024 2.1298 0.84024 4.75084V6.06307H7.77584C8.48692 5.51688 9.46938 5.19054 10.3419 5.19054C11.2728 5.19054 12.1969 5.51688 12.908 6.06307H19.7337ZM14.2752 2.89241C14.2752 2.6176 14.495 2.40118 14.7664 2.40118H16.405C16.6248 2.40118 16.8412 2.62103 16.8412 2.89241V4.53098C16.8412 4.8058 16.6764 5.02221 16.405 5.02221H14.7664C14.4916 5.02221 14.2752 4.85733 14.2752 4.53098V2.89241Z"
+                fill="#656666" />
+            <path
+                d="M8.48347 9.7215C8.48347 10.7589 9.41096 11.525 10.3934 11.525C10.8846 11.525 11.3209 11.3601 11.6473 11.0337C12.032 10.6524 12.2484 10.2127 12.2484 9.72493C12.2484 8.74247 11.3759 7.81498 10.39 7.81498C9.4144 7.80811 8.48347 8.7356 8.48347 9.7215Z"
+                fill="#656666" />
+        </symbol>
+        <symbol id="dz" viewBox="0 0 21 22">
+            <path
+                d="M0.573608 0.890625V21.3171H21V0.890625H0.573608ZM10.8344 12.4298C10.7054 12.8729 10.5007 13.2534 10.2262 13.5618C9.94732 13.8724 9.59133 14.111 9.16834 14.2717C8.75398 14.4287 8.26109 14.5087 7.70261 14.5087H5.24965V7.69968H7.70261C8.74678 7.69968 9.56972 7.97279 10.1469 8.51037C10.7292 9.05299 11.0246 9.8752 11.0246 10.9554C11.0239 11.5016 10.9605 11.9974 10.8344 12.4298ZM16.3247 8.90814L12.6583 13.3031H16.3247V14.5087H11.0311V13.2988L14.6529 8.90814H11.0333V7.69968H16.3247V8.90814Z"
+                fill="#666665" />
+            <path
+                d="M9.23895 9.44857C9.09699 9.27418 8.91035 9.13942 8.68408 9.04863C8.44556 8.95135 8.1429 8.90234 7.78331 8.90234H6.56116V13.3046H7.7653C7.84889 13.3046 7.96203 13.2981 8.10038 13.2844C8.22433 13.2714 8.35764 13.2404 8.49672 13.1914C8.63868 13.1417 8.78064 13.0696 8.91828 12.9774C9.04799 12.8902 9.16761 12.7677 9.27426 12.612C9.38451 12.4521 9.47675 12.2453 9.54881 11.9981C9.62303 11.7473 9.66051 11.4346 9.66051 11.0692C9.66051 10.7104 9.6252 10.3882 9.5553 10.1122C9.48972 9.84923 9.38307 9.62656 9.23895 9.44857Z"
+                fill="#666665" />
+        </symbol>
+        <symbol id="facebook" viewBox="0 0 9 21">
+            <path
+                d="M9 6.79782H5.9355V4.61962C5.9355 3.79945 6.43511 3.60872 6.78694 3.60872C7.13878 3.60872 8.95074 3.60872 8.95074 3.60872V0.0114441L5.97068 0C2.66341 0 1.91048 2.68174 1.91048 4.40218V6.80163H0V10.5095H1.91048C1.91048 15.2665 1.91048 21 1.91048 21H5.93198C5.93198 21 5.93198 15.2093 5.93198 10.5095H8.64464L9 6.79782Z"
+                fill="#656666" />
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 21 17">
+            <path
+                d="M21 2.01213C20.2281 2.35269 19.3967 2.5839 18.5244 2.68701C19.4155 2.15585 20.0964 1.31538 20.4195 0.312443C19.5849 0.802977 18.6656 1.16229 17.6835 1.35288C16.8991 0.521779 15.779 0 14.5365 0C12.1551 0 10.2286 1.92152 10.2286 4.28984C10.2286 4.62727 10.2662 4.95534 10.3384 5.26778C6.7584 5.08969 3.58315 3.38063 1.45899 0.784231C1.08875 1.41849 0.875392 2.15585 0.875392 2.94321C0.875392 4.43356 1.63783 5.74582 2.79247 6.51443C2.08651 6.49256 1.42134 6.29884 0.840879 5.97703C0.840879 5.99577 0.840879 6.01452 0.840879 6.03014C0.840879 8.11101 2.32497 9.84507 4.29852 10.2387C3.9377 10.3356 3.55805 10.3887 3.16271 10.3887C2.88346 10.3887 2.61363 10.3606 2.3532 10.3137C2.90229 12.0165 4.49305 13.2569 6.37875 13.2944C4.90408 14.4442 3.04662 15.1316 1.02913 15.1316C0.680861 15.1316 0.338861 15.1128 0 15.0722C1.90766 16.2876 4.17302 17 6.60466 17C14.5303 17 18.8664 10.4606 18.8664 4.78974C18.8664 4.6054 18.8602 4.41794 18.8539 4.2336C19.6916 3.62746 20.4227 2.87447 21 2.01213Z"
+                fill="#656666" />
+        </symbol>
+        <symbol id="arrow-left" viewBox="0 0 19 32">
+            <path
+                d="M17.9142 3.91421C18.6953 3.13317 18.6953 1.86684 17.9142 1.08579C17.1332 0.304738 15.8668 0.304738 15.0858 1.08579L17.9142 3.91421ZM3 16L1.58578 14.5858L0.171569 16L1.58578 17.4142L3 16ZM15.0858 30.9142C15.8668 31.6953 17.1332 31.6953 17.9142 30.9142C18.6953 30.1332 18.6953 28.8668 17.9142 28.0858L15.0858 30.9142ZM15.0858 1.08579L1.58578 14.5858L4.41421 17.4142L17.9142 3.91421L15.0858 1.08579ZM1.58578 17.4142L15.0858 30.9142L17.9142 28.0858L4.41421 14.5858L1.58578 17.4142Z"
+                fill="white" />
+        </symbol>
+        <symbol id="arrow-right" viewBox="0 0 19 32">
+            <path
+                d="M0.58579 28.0858C-0.195259 28.8668 -0.195259 30.1332 0.58579 30.9142C1.36684 31.6953 2.63317 31.6953 3.41422 30.9142L0.58579 28.0858ZM15.5 16L16.9142 17.4142L18.3284 16L16.9142 14.5858L15.5 16ZM3.41421 1.08579C2.63316 0.304739 1.36683 0.304739 0.585786 1.08579C-0.195263 1.86684 -0.195262 3.13317 0.585786 3.91422L3.41421 1.08579ZM3.41422 30.9142L16.9142 17.4142L14.0858 14.5858L0.58579 28.0858L3.41422 30.9142ZM16.9142 14.5858L3.41421 1.08579L0.585786 3.91422L14.0858 17.4142L16.9142 14.5858Z"
+                fill="white" />
+        </symbol>
+    </svg>
+</div>
+
+</html>
