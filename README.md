@@ -8,5 +8,6 @@ O layout do teste tem um formulário. Esperamos que você preveja comportamentos
 (para um email, por exemplo).
 
 **Instruções**
--Instalar node.
--Rodar gulp. 
+
+- Instalar node.
+- Rodar gulp. 
